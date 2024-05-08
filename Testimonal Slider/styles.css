@@ -1,0 +1,35 @@
+body {
+    background-image: url(pixel-art.png);
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slider {
+    background-color: darkorchid;
+    font-size: 24px;
+    color: indigo;
+    opacity: 60%;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #2a6b91; /* Add border */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    padding: 20px;
+}
+
+.testimonial {
+    width: 100%;
+    display: none;
+    text-align: center; /* Center align text */
+    
+}
+
+.active {
+    display: block;
+}
+
